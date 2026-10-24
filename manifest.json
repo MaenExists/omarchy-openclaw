@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "maen.openclaw",
+  "name": "OpenClaw Control",
+  "version": "1.0.0",
+  "author": "MaenExists",
+  "license": "MIT",
+  "description": "Ultra-lightweight top bar toggle and controller for OpenClaw Gateway on Omarchy OS with zero idle RAM overhead.",
+  "homepage": "https://github.com/MaenExists/omarchy-openclaw",
+  "repository": "https://github.com/MaenExists/omarchy-openclaw",
+  "keywords": [
+    "openclaw",
+    "gateway",
+    "ai",
+    "bar-widget",
+    "quickshell",
+    "omarchy"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "OpenClaw Gateway Control",
+    "description": "Start and stop OpenClaw Gateway on command directly from the bar.",
+    "category": "AI",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
