@@ -84,7 +84,7 @@ Panel {
     anchors.fill: parent
     bar: root.bar
     slotSize: Style.bar.iconSlot
-    tooltipText: root.isGatewayActive ? "OpenClaw Gateway: Running (512MB cap)" : "OpenClaw Gateway: Stopped (Click to toggle)"
+    tooltipText: root.isGatewayActive ? "OpenClaw Gateway: Running (380MB cap)" : "OpenClaw Gateway: Stopped (Click to toggle)"
     onPressed: root.toggle()
 
     iconComponent: Component {
@@ -195,7 +195,7 @@ Panel {
 
                   Text {
                     textFormat: Text.PlainText
-                    text: root.isGatewayActive ? "Online · 512 MB Cap" : "Offline · 0 MB RAM"
+                    text: root.isGatewayActive ? "Online · 380 MB Cap" : "Offline · 0 MB RAM"
                     font.family: root.fontFamily
                     font.pixelSize: Style.font.caption
                     font.bold: true
